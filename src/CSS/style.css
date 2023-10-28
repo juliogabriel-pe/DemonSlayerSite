@@ -79,7 +79,7 @@ main .imagem {
     top: 0;
     right: 0;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 80vh;
     justify-content: center;
     gap: 10px;
     width: 180px;
@@ -166,7 +166,7 @@ main .imagem {
     main .personagem .imagem {
         height: auto;
     }
-    main .conteudo {
-        min-height: 100vh;
+    .botoes {
+        min-height: 90vh;
     }
 }
