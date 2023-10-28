@@ -151,9 +151,6 @@ main .imagem {
 }
 
 @media only screen and (max-width: 540px) {
-    body {
-        overflow-y: auto;
-    }
     .botoes img{
         max-width: 40px;
     }
