@@ -151,11 +151,13 @@ main .imagem {
 }
 
 @media only screen and (max-width: 540px) {
+    body {
+        overflow-y: auto;
+    }
     .botoes img{
         max-width: 40px;
     }
     .conteudo .descricao {
-        max-width: 200px;
         font-size: 18px;
     }
     .conteudo .nomePersonagem {
@@ -166,5 +168,9 @@ main .imagem {
     }
     main .personagem .imagem {
         height: auto;
+    }
+    main .conteudo {
+        min-height: 100vh;
+        margin-top: 255px;
     }
 }
