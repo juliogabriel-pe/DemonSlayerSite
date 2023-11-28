@@ -23,15 +23,16 @@ main .personagem {
     height: 100vh;
 }
 
-main .personagemSelecionado {
+main .personagem.selecionado {
     display: block;
 }
 
-main .personagemSelecionado .imagem {
+main .personagem.selecionado .imagem {
     width: 100%;
     height: 100%;
     object-fit: cover;
     max-height: 647px;
+    opacity: 0.5;
 }
 
 main .imagem {
@@ -51,7 +52,7 @@ main .imagem {
     max-width: 380px;
 }
 
-.conteudo .nomePersonagem {
+.conteudo .nome.personagems {
     color: #000;
     font-size: 48px;
     font-family: 'bloodcrow';
@@ -92,13 +93,13 @@ main .imagem {
     border-radius: 50%;
 }
 
-.botoes .botao , .botaoSelecionado {
+.botoes .botao , .botao.selecionado {
     border: none;
     background: none;
     border-radius: 50%;
 }
 
-.botaoSelecionado {
+.botao.selecionado {
     transform: scale(1.2);
     box-shadow: 0 0 20px yellow;
 }
@@ -107,7 +108,7 @@ main .imagem {
     box-shadow: 0 0 20px #fff;
 }
 
-.botao , .botaoSelecionado {
+.botao , .botao.selecionado {
     cursor: pointer;
 }
 
@@ -129,7 +130,7 @@ main .imagem {
         padding: 30px;
     }
 
-    .conteudo .nomePersonagem {
+    .conteudo .nome.personagems {
         font-size: 36px;
     }
 
@@ -158,7 +159,7 @@ main .imagem {
         font-size: 18px;
         margin-top: 10%;
     }
-    .conteudo .nomePersonagem {
+    .conteudo .nome.personagems {
         font-size: 26px;
     }
     .conteudo .logo {
@@ -170,12 +171,12 @@ main .imagem {
     .botoes {
         min-height: 90vh;
     }
-    .conteudo .nomePersonagem {
+    .conteudo .nome.personagems {
         color: #9e9e9e;
     }
 }
 @media only screen and (max-width: 360px) {
-    .conteudo .nomePersonagem {
+    .conteudo .nome.personagems {
         position: relative;
         top: 45px;
     }
@@ -186,7 +187,7 @@ main .imagem {
     }
 }
 @media only screen and (max-width: 393px) {
-    .conteudo .nomePersonagem , .logo {
+    .conteudo .nome.personagems , .logo {
         position: relative;
         top: 48px;
     }
